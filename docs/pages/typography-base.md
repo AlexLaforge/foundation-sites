@@ -49,6 +49,71 @@ Foundation includes styles for all headings&mdash;they're balanced and sized alo
 
 ---
 
+<hr>
+<h3 id="subheaders">Subheaders</h3>
+<p>Lighten up your headers by adding a class of .subheader to any header element.</p>
+<div class="row">
+  <div class="large-6 columns">
+  <h4>HTML</h4>
+```html_example
+      <div class="type-demo">
+
+<h1 class="subheader">h1.subheader</h1>
+<h2 class="subheader">h2.subheader</h2>
+<h3 class="subheader">h3.subheader</h3>
+<h4 class="subheader">h4.subheader</h4>
+<h5 class="subheader">h5.subheader</h5>
+<h6 class="subheader">h6.subheader</h6>
+
+        </div>
+```
+
+  </div>
+  <div class="large-6 columns">
+  <h4>Rendered HTML</h4>
+      <div class="type-demo">
+
+<h1 class="subheader">h1.subheader</h1>
+<h2 class="subheader">h2.subheader</h2>
+<h3 class="subheader">h3.subheader</h3>
+<h4 class="subheader">h4.subheader</h4>
+<h5 class="subheader">h5.subheader</h5>
+<h6 class="subheader">h6.subheader</h6>
+
+        </div>
+  </div>
+</div>
+
+<hr>
+<h3 id="small-header-segments">Small Header Segments</h3>
+<p>By inserting a <code>small</code> element into a header Foundation will scale the header font size down for an inline element, allowing you to use this for subtitles or other secondary header text.</p>
+<div class="row">
+  <div class="large-6 columns">
+  <h4>HTML</h4>
+```html_example
+      <div class="type-demo">
+            <h1>h1. <small>Small segment header.</small></h1>
+<h2>h2. <small>Small segment header.</small></h2>
+<h3>h3. <small>Small segment header.</small></h3>
+<h4>h4. <small>Small segment header.</small></h4>
+<h5>h5. <small>Small segment header.</small></h5>
+<h6>h6. <small>Small segment header.</small></h6>
+        </div>
+```
+  </div>
+  <div class="large-6 columns">
+  <h4>Rendered HTML</h4>
+      <div class="type-demo">
+            <h1>h1. <small>Small segment header.</small></h1>
+<h2>h2. <small>Small segment header.</small></h2>
+<h3>h3. <small>Small segment header.</small></h3>
+<h4>h4. <small>Small segment header.</small></h4>
+<h5>h5. <small>Small segment header.</small></h5>
+<h6>h6. <small>Small segment header.</small></h6>
+        </div>
+  </div>
+</div>
+
 ### Header Sizes
 
 The framework includes two typographic scales&mdash;one uses a narrow range of sizes for small- and medium-sized screens, and the other uses a wider range of sizes for large-sized screens. You can change these scales, or add new ones for other breakpoints, by editing the `$header-sizes` map in your project's <a href="sass.html#the-settings-file">Settings File</a>.
@@ -118,6 +183,49 @@ Use an unordered list to... *list things*, if the order of the items doesn't mat
   <li>List item</li>
 </ul>
 ```
+
+---
+
+
+<div class="row">
+  <div class="large-6 columns">
+  <h4>HTML</h4>
+```html_example
+    <ul class="no-bullet">
+      <li>List item with a much longer description or more content.</li>
+      <li>List item</li>
+      <li>List item
+        <ul>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+      <li>List item</li>
+      <li>List item</li>
+    </ul>
+```
+
+  </div>
+  <div class="large-6 columns">
+    <h4>Rendered HTML</h4>
+    <ul class="no-bullet">
+      <li>List item with a much longer description or more content.</li>
+      <li>List item</li>
+      <li>List item
+        <ul>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+          <li>Nested List Item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+      <li>List item</li>
+      <li>List item</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
