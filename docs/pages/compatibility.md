@@ -1,6 +1,6 @@
 ---
 title: Compatibility
-description: Foundation is tested across many browsers and devices, and works back as far as IE9 and Android 2.
+description: Foundation is tested across many browsers and devices, and works back as far as IE9 and Android 4.4.
 tags:
   - support
   - browser
